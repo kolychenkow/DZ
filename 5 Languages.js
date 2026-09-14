@@ -1,18 +1,20 @@
-const language = "Tat"
-switch (language){
-    case "En":
+let language = prompt("Language")
+switch (language.toLowerCase()){
+    case "en":
         console.log("Hello!");
         break;
-    case "De":
+    case "de":
         console.log("Gutten tag!");
         break;
-    case "Ru":
+    case "ru":
         console.log("Привет!");
         break;
-    case "Tat":
-        console.log("Салам!");
+    case "tat":
+        console.log("салам!");
         break;
     case "Esp":
-        console.log("Holla!");
+        console.log("holla!");
         break;
+        default:
+        console.log("Not found")
 }
